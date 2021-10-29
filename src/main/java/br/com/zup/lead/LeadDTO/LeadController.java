@@ -19,6 +19,7 @@ public class LeadController {
 
     }
 
+    @GetMapping
     public List<LeadDTO>exibirListaDelead(){
         return leadService.retornarTodosOsLead();
     }
