@@ -13,4 +13,7 @@ public class LeadService {
         listaDeLead.add(leadDTO);
     }
 
+    public List<LeadDTO> retornarTodosOsLead(){
+        return listaDeLead;
+    }
 }
