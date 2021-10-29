@@ -7,7 +7,7 @@ public class LeadDTO {
     private String nome;
     private String email;
     private String telefone;
-    private List<ProdutoDTO> produtos = new ArrayList<>();
+    private List<ProdutoDTO> produtos;
 
     public LeadDTO() {
     }
@@ -49,5 +49,8 @@ public class LeadDTO {
 
     public void setProdutos(List<ProdutoDTO> produtos) {
         this.produtos = produtos;
+    }
+
+    public void add(LeadDTO leadDTO) {
     }
 }
